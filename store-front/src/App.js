@@ -1,7 +1,9 @@
 import React from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
-import { Link } from 'react-router-dom';
+import Home from './components/pages/Home';
+import Products from './components/pages/Products';
+import Cart from './components/pages/Cart';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 
 function App() {
@@ -10,7 +12,9 @@ function App() {
     <BrowserRouter>
       <Navbar />
       <Routes>
-        <Route path="/" />
+        <Route path="/" element={<Home />}/>
+        <Route path="/products" element={<Products />}/>
+        <Route path="/cart" element={<Cart />}/>
       </Routes>
     </BrowserRouter>
     </>

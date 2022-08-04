@@ -29,8 +29,8 @@ function Navbar() {
                             </Link>
                         </li>
                         <li classname='nav-item'>
-                            <Link to="/about" className='nav-links' onClick={closeMobileMenu}>
-                                About
+                            <Link to="/cart" className='nav-links' onClick={closeMobileMenu}>
+                                <i class="fas fa-shopping-cart" id='cart'></i>
                             </Link>
                         </li>
                     </ul>
