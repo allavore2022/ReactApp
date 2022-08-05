@@ -49,6 +49,10 @@
   .nav-item {
     height: 80px;
   }
+
+  a:hover {
+    color: black;
+  }
   
   .nav-links {
     color:black;
