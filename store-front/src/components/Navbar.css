@@ -1,3 +1,8 @@
+img.logo {
+  margin-top: 0px;
+  height: 70px;
+
+}
 .navbar {
     background: white;
     height: 80px;
@@ -64,7 +69,7 @@
   }
   
   .nav-links:hover {
-    border-bottom: 4px solid #C08497;
+    border-bottom: 4px solid #DE5D81;
     height: 80px;
     transition: all ease-out;
   }
@@ -113,7 +118,7 @@
     }
   
     .nav-links:hover {
-      color: #C08497;
+      color: #DE5D81;
       border-radius: 0;
     }
   

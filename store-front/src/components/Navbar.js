@@ -13,24 +13,24 @@ function Navbar() {
         <>
             <nav className="navbar">
                 <div className="navbar-container">
-                    <Link to="/" className="navbar-logo">Meet Your Maker HI</Link>
+                    <Link to="/" className="navbar-logo"><img class="logo" src="/images/logo.png" alt="Meet Your Maker HI Logo" /></Link>
                     <div className="menu-icon" onClick={handleClick}>
                         <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
                     </div>
                     <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-                        <li classname='nav-item'>
+                        <li className='nav-item'>
                             <Link to="/" className='nav-links' onClick={closeMobileMenu}>
                                 Home
                             </Link>
                         </li>
-                        <li classname='nav-item'>
+                        <li className='nav-item'>
                             <Link to="/products" className='nav-links' onClick={closeMobileMenu}>
                                 Products
                             </Link>
                         </li>
-                        <li classname='nav-item'>
+                        <li className='nav-item'>
                             <Link to="/cart" className='nav-links' onClick={closeMobileMenu}>
-                                <i class="fas fa-shopping-cart" id='cart'></i>
+                                <i className="fas fa-shopping-cart" id='cart'></i>
                             </Link>
                         </li>
                     </ul>
